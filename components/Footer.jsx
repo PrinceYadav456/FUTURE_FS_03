@@ -7,14 +7,19 @@ const Footer = () => {
     <footer>
       <div className="flex flex-col md:flex-row items-start justify-center px-6 md:px-16 lg:px-32 gap-10 py-14 border-b border-gray-500/30 text-gray-500">
         <div className="w-4/5">
-          <Image className="w-28 md:w-32" src={assets.logo} alt="logo" />
+          <h1
+        onClick={() => router.push("/")}
+        className="text-2xl font-bold text-gray-800 cursor-pointer"
+      >
+        <span className="text-orange-600">C</span>artify
+      </h1>
           <p className="mt-6 text-sm">
-            Quickart is your trusted destination for the latest electronic
+            Cartify is your trusted destination for the latest electronic
             gadgets and smart devices. We bring innovation to your doorstep with
             quality, affordability, and speed. Whether you're upgrading your
             lifestyle or gifting something special, we've got you covered. Stay
-            connected with the future of tech—only at Quickart. Shop smart. Shop
-            Quickart.
+            connected with the future of tech—only at Cartify. Shop smart. Shop
+            Cartify.
           </p>
         </div>
 

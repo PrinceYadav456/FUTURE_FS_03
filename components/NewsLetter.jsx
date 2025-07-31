@@ -7,7 +7,7 @@ const NewsLetter = () => {
         Subscribe now & get 20% off
       </h1>
       <p className="md:text-base text-gray-500/80 pb-8">
-        Get the best deals on gadgets, delivered fast and hassle-free — only at Quickart.
+        Get the best deals on gadgets, delivered fast and hassle-free — only at Cartify.
       </p>
       <div className="flex items-center justify-between max-w-2xl w-full md:h-14 h-12">
         <input
